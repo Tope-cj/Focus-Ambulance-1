@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require('dotenv').config();
 console.log("🔍 DIAGNOSTIC TEST - Email User is:", process.env.EMAIL_USER);
 console.log("🔍 DIAGNOSTIC TEST - Email Pass is:", process.env.EMAIL_PASS ? "Loaded!" : "BLANK/UNDEFINED!");
@@ -185,7 +184,7 @@ const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
-=======
+
 require('dotenv').config();
 console.log("🔍 DIAGNOSTIC TEST - Email User is:", process.env.EMAIL_USER);
 console.log("🔍 DIAGNOSTIC TEST - Email Pass is:", process.env.EMAIL_PASS ? "Loaded!" : "BLANK/UNDEFINED!");
@@ -372,4 +371,3 @@ const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
->>>>>>> b5ed720246ff95947c2d2e43086f6ca65c943c41
