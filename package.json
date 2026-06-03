@@ -1,0 +1,15 @@
+{
+  "name": "focus-ambulance-backend",
+  "version": "1.0.0",
+  "description": "Backend API for FOCUS Ambulance Service contact and ambulance request forms.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.4",
+    "nodemailer": "^6.9.4"
+  }
+}
