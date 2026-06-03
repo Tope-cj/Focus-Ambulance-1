@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const API_BASE_URL = 'https://focus-ambulance-1.onrender.com';
 
 document.addEventListener('DOMContentLoaded',function(){
@@ -671,5 +671,3 @@ document.addEventListener('DOMContentLoaded',function(){
 
   document.querySelectorAll('.service-card, .stat, .testimonial').forEach(el=>observer.observe(el));
 });
-
->>>>>>> b5ed720246ff95947c2d2e43086f6ca65c943c41
