@@ -1,3 +1,7 @@
+const API_BASE_URL = 'https://focus-ambulance-1.onrender.com';
+
+// Add your original form-handling code here below this line
+// ...
 
 const API_BASE_URL = 'https://focus-ambulance-1.onrender.com';
 
@@ -335,7 +339,6 @@ document.addEventListener('DOMContentLoaded',function(){
   document.querySelectorAll('.service-card, .stat, .testimonial').forEach(el=>observer.observe(el));
 });
 
-=======
 const API_BASE_URL = 'http://127.0.0.1:3000';
 
 document.addEventListener('DOMContentLoaded',function(){
